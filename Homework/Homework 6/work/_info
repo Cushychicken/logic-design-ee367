@@ -1,0 +1,141 @@
+m255
+K3
+13
+cModel Technology
+dZ:\EE367\Homework\Homework 3
+Ecla
+Z0 w1298618340
+Z1 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z2 dZ:\EE367\Homework\Homework 6
+Z3 8Z:/EE367/Homework/Homework 6/cla.vhd
+Z4 FZ:/EE367/Homework/Homework 6/cla.vhd
+l0
+L20
+V`:CEaPO>8hO7o[?lUe5I80
+Z5 OV;C;6.5e;42
+32
+Z6 o-work work -2002 -explicit -O0
+Z7 tExplicit 1
+!s100 :eSSUld[z^Mf<R9F[h59G2
+Acla_arch
+R1
+DEx4 work 3 cla 0 22 `:CEaPO>8hO7o[?lUe5I80
+l36
+L26
+VZkPgzG<]PH;:K=1[dRE8O1
+R5
+32
+Z8 Mx1 4 ieee 14 std_logic_1164
+R6
+R7
+!s100 =d:3higNCZA=b>hJGZB_;3
+Efull_adder
+Z9 w1298508069
+R1
+R2
+Z10 8Z:/EE367/Homework/Homework 6/full_adder.vhd
+Z11 FZ:/EE367/Homework/Homework 6/full_adder.vhd
+l0
+L19
+V>5b0cOFgjo[mETJ=Hn=2g0
+R5
+32
+R6
+R7
+!s100 TH[i3zTlGY<36[60B2f;j3
+Afull_adder_arch
+R1
+DEx4 work 10 full_adder 0 22 >5b0cOFgjo[mETJ=Hn=2g0
+l33
+L24
+Vz1P6^I`DjC0e_I_mbz8C=1
+R5
+32
+R8
+R6
+R7
+!s100 ^JO2L[RcnW=VeVRXM^<aS0
+Ehalf_adder
+Z12 w1298507978
+R1
+R2
+Z13 8Z:/EE367/Homework/Homework 6/half_adder.vhd
+Z14 FZ:/EE367/Homework/Homework 6/half_adder.vhd
+l0
+L19
+V:PFl7;Un?CXeCi_Woh6>:3
+R5
+32
+R6
+R7
+!s100 jjRJAabg3SE7CGAEBDo2N3
+Ahalf_adder_arch
+R1
+DEx4 work 10 half_adder 0 22 :PFl7;Un?CXeCi_Woh6>:3
+l25
+L24
+VR4IWdlj]neHiP53E<T2JH2
+R5
+32
+R8
+R6
+R7
+!s100 ^^8bYFea[UDR`bNY5Xj]e2
+Erca
+Z15 w1298508719
+R1
+R2
+Z16 8Z:/EE367/Homework/Homework 6/rca.vhd
+Z17 FZ:/EE367/Homework/Homework 6/rca.vhd
+l0
+L19
+VaQ8NgaL6P]<m[74fjQak;3
+R5
+32
+R6
+R7
+!s100 eScBmHONlQdYab>VQgoSJ0
+Arca_arch
+R1
+DEx4 work 3 rca 0 22 aQ8NgaL6P]<m[74fjQak;3
+l34
+L25
+VKg1SWibA>?E:T=8RQS1GS2
+R5
+32
+R8
+R6
+R7
+!s100 caciEGN8:EXAmZ@DUcm__3
+Etest_adder
+Z18 w1298618443
+Z19 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z20 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+R1
+R2
+Z21 8Z:/EE367/Homework/Homework 6/test_adder.vhd
+Z22 FZ:/EE367/Homework/Homework 6/test_adder.vhd
+l0
+L22
+VY<KKcF?X?oEBDH[>^2F<j2
+!s100 B_8DCSKd`0z9BGlnS=Y:F2
+R5
+32
+R6
+R7
+Atest_adder_arch
+R19
+R20
+R1
+Z23 DEx4 work 10 test_adder 0 22 Y<KKcF?X?oEBDH[>^2F<j2
+l50
+L25
+VEC1M6^;3MoZ]0Qz8?5LI_0
+!s100 RZZ8O4OUk`cnRSjA=1iAA2
+R5
+32
+Z24 Mx3 4 ieee 14 std_logic_1164
+Z25 Mx2 4 ieee 15 std_logic_arith
+Z26 Mx1 4 ieee 18 std_logic_unsigned
+R6
+R7

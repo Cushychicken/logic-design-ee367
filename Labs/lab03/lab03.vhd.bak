@@ -1,0 +1,30 @@
+-----------------------------------------------------------------------------------
+-- File name   : lab03.vhd
+--
+-- Project     : "Helo"
+--
+-- Description : Driving Seven Segment Display with 7 segment decoder
+--
+-- Author(s)   : Nash Reilly
+--               Montana State University
+--
+-- Due Date    : February 2, 2011
+--
+-- Note(s)     : This file contains the Entity and Architecture to create a 7 segment decoder for driving a 7 segment display
+--               Concurrent Signal Assignments Statements and Logic Operator
+--
+------------------------------------------------------------------------------------
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+-- 7 segment decoder
+ENTITY lab03 IS
+	PORT( SW   : IN  STD_LOGIC_VECTOR(17 DOWNTO 0);  -- switch bit vectors
+			LEDR : OUT STD_LOGIC_VECTOR(17 DOWNTO 0)); -- red LEDs bit vectors
+END lab02;
+
+ARCHITECTURE lab02_arch OF lab02 IS
+	BEGIN
+		LEDR <= SW;
+END lab02_arch;

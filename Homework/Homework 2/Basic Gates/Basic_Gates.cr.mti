@@ -1,0 +1,43 @@
+{Z:/EE367/Homework/Homework 2/Basic Gates/nand2.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 2/Basic Gates/nand2.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity nand2
+-- Compiling architecture nand2_arch of nand2
+
+} {} {}} {Z:/EE367/Homework/Homework 2/Basic Gates/test_logic_gates.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 2/Basic Gates/test_logic_gates.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity test_logic_gates
+-- Compiling architecture test_logic_gates_arch of test_logic_gates
+
+} {} {}} {Z:/EE367/Homework/Homework 2/Basic Gates/and2.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 2/Basic Gates/and2.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity and2
+-- Compiling architecture and2_arch of and2
+
+} {} {}} {Z:/EE367/Homework/Homework 2/Basic Gates/nor2.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 2/Basic Gates/nor2.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity nor2
+-- Compiling architecture nor2_arch of nor2
+
+} {} {}} {Z:/EE367/Homework/Homework 2/Basic Gates/xnor2.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 2/Basic Gates/xnor2.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity xnor2
+-- Compiling architecture xnor2_arch of xnor2
+
+} {} {}} {Z:/EE367/Homework/Homework 2/Basic Gates/inv1.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 2/Basic Gates/inv1.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity inv1
+-- Compiling architecture inv1_arch of inv1
+
+} {} {}}

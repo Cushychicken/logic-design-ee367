@@ -1,0 +1,9 @@
+
+State Machine - |memory_interface|current_state
+Name current_state.READ_ADDR_INC current_state.READ_RAM current_state.ADDR_CLR current_state.COPY_ADDR_INC current_state.COPY current_state.RST 
+current_state.RST 0 0 0 0 0 0 
+current_state.COPY 0 0 0 0 1 1 
+current_state.COPY_ADDR_INC 0 0 0 1 0 1 
+current_state.ADDR_CLR 0 0 1 0 0 1 
+current_state.READ_RAM 0 1 0 0 0 1 
+current_state.READ_ADDR_INC 1 0 0 0 0 1 

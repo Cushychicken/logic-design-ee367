@@ -1,0 +1,239 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\10.0
+Eand2
+Z0 w1296590312
+Z1 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z2 dZ:\EE367\Homework\Homework 3
+Z3 8Z:/EE367/Homework/Homework 3/and2.vhd
+Z4 FZ:/EE367/Homework/Homework 3/and2.vhd
+l0
+L18
+VOn7[1E9Zg`>PC1Qk2<`aF0
+Z5 OV;C;6.5e;42
+32
+Z6 o-work work -2002 -explicit -O0
+Z7 tExplicit 1
+!s100 8b^J<:Jbj7lcm?bEn@23Q0
+Aand2_arch
+R1
+DEx4 work 4 and2 0 22 On7[1E9Zg`>PC1Qk2<`aF0
+l24
+L23
+VP=V3YUAVP?Q7d>D=Q?9k>3
+R5
+32
+Z8 Mx1 4 ieee 14 std_logic_1164
+R6
+R7
+!s100 B^gQi5X2goa;zKYiGPBGM1
+Eexercise216_parta
+Z9 w1296589012
+R1
+R2
+Z10 8Z:/EE367/Homework/Homework 3/exercise216_parta.vhd
+Z11 FZ:/EE367/Homework/Homework 3/exercise216_parta.vhd
+l0
+L18
+V?8dBCBj?L=PLGVO@I?=XA0
+R5
+32
+R6
+R7
+!s100 mXE?XPMO[z]`Oe:<?4<mR0
+Aexercise216_parta_arch
+R1
+DEx4 work 17 exercise216_parta 0 22 ?8dBCBj?L=PLGVO@I?=XA0
+l24
+L23
+V@^El06Hk26OaIX[ej]8W42
+R5
+32
+R8
+R6
+R7
+!s100 Ke1Zg[PS[3LkPEN<c2E?L1
+Eexercise216_parta_tb
+Z12 w1296494525
+R1
+R2
+Z13 8Z:/EE367/Homework/Homework 3/Test Benches/exercise216_parta_TB.vhd
+Z14 FZ:/EE367/Homework/Homework 3/Test Benches/exercise216_parta_TB.vhd
+l0
+L20
+V1_2g[hK5_CBi5_C1H]__b2
+R5
+32
+R6
+R7
+!s100 mF668lRm7c8g4Q[F`E?1l0
+Aexercise216_parta_tb_arch
+R1
+DEx4 work 20 exercise216_parta_tb 0 22 1_2g[hK5_CBi5_C1H]__b2
+l32
+L23
+V:k;0^]O6FDI?BfmcTj6J21
+R5
+32
+R8
+R6
+R7
+!s100 NMU[4SU9TGfHXE]V1RL_h2
+Eexercise216_partb
+Z15 w1296694183
+R1
+R2
+Z16 8Z:/EE367/Homework/Homework 3/exercise216_partb.vhd
+Z17 FZ:/EE367/Homework/Homework 3/exercise216_partb.vhd
+l0
+L18
+VO>XjXDjSJoT_T]1Gl=49R2
+R5
+32
+R6
+R7
+!s100 B41Vfoe4l0z91;RH7LiHm0
+Aexercise216_partb_arch
+R1
+DEx4 work 17 exercise216_partb 0 22 O>XjXDjSJoT_T]1Gl=49R2
+l27
+L23
+V^W[CBE<9Bzc>aeHe@=1QV3
+R5
+32
+R8
+R6
+R7
+!s100 210KN4Z977XTKVBE3LnB91
+Eexercise216_partb_tb
+Z18 w1296494580
+R1
+R2
+Z19 8Z:/EE367/Homework/Homework 3/Test Benches/exercise216_partb_TB.vhd
+Z20 FZ:/EE367/Homework/Homework 3/Test Benches/exercise216_partb_TB.vhd
+l0
+L20
+V4iIUT4_9P?oSgc2mHVlMh3
+R5
+32
+R6
+R7
+!s100 ;PZM?SUiV5klk>iMh`9`L3
+Aexercise216_partb_tb_arch
+R1
+DEx4 work 20 exercise216_partb_tb 0 22 4iIUT4_9P?oSgc2mHVlMh3
+l32
+L23
+V`3M[keEVX;]m<dcSE_1iF1
+R5
+32
+R8
+R6
+R7
+!s100 CdYaCMc[UMk[aUaHGKoEZ1
+Eexercise216_partc
+Z21 w1296694326
+R1
+R2
+Z22 8Z:/EE367/Homework/Homework 3/exercise216_partc.vhd
+Z23 FZ:/EE367/Homework/Homework 3/exercise216_partc.vhd
+l0
+L18
+V``^;fn3Xbn_^WM;13Sbi00
+!s100 I<5F7gj7WB11AiQTkgNc`3
+R5
+32
+R6
+R7
+Aexercise216_partc_arch
+R1
+DEx4 work 17 exercise216_partc 0 22 ``^;fn3Xbn_^WM;13Sbi00
+l42
+L23
+V^fmBfNXYUMfinPabD`8<S0
+!s100 =67ojXN;P?eIXc48^N4TG2
+R5
+32
+R8
+R6
+R7
+Eexercise216_partc_tb
+Z24 w1296494602
+R1
+R2
+Z25 8Z:/EE367/Homework/Homework 3/Test Benches/exercise216_partc_TB.vhd
+Z26 FZ:/EE367/Homework/Homework 3/Test Benches/exercise216_partc_TB.vhd
+l0
+L20
+V>mGP@Fc9P?[NPno9zg4T42
+R5
+32
+R6
+R7
+!s100 P59ZA<N02OGlYU>Gng[`B0
+Aexercise216_partc_tb_arch
+R1
+DEx4 work 20 exercise216_partc_tb 0 22 >mGP@Fc9P?[NPno9zg4T42
+l32
+L23
+VIgFm<b;:JHN6T:=5h?J_l3
+R5
+32
+R8
+R6
+R7
+!s100 Fnc<]HkZa8[5P[XSD>`g82
+Eor2
+Z27 w1296590248
+R1
+R2
+Z28 8Z:/EE367/Homework/Homework 3/or2.vhd
+Z29 FZ:/EE367/Homework/Homework 3/or2.vhd
+l0
+L18
+VF;oS4]c@TJ=0CE]>]N=oP2
+R5
+32
+R6
+R7
+!s100 6RzalBUenlPnF0XASe@0e3
+Aor2_arch
+R1
+DEx4 work 3 or2 0 22 F;oS4]c@TJ=0CE]>]N=oP2
+l24
+L23
+VS0@11zA:khHn<8U9X6Eea1
+R5
+32
+R8
+R6
+R7
+!s100 ]`eLNm`gDA?XAJC:^aKzG2
+Exor2
+Z30 w1296590067
+R1
+R2
+Z31 8Z:/EE367/Homework/Homework 3/xor2.vhd
+Z32 FZ:/EE367/Homework/Homework 3/xor2.vhd
+l0
+L18
+V`ikOLe^U76U[IRoWd:Z6I2
+R5
+32
+R6
+R7
+!s100 dYl=zCP3`RjEbQ<AO=HTo0
+Axor2_arch
+R1
+DEx4 work 4 xor2 0 22 `ikOLe^U76U[IRoWd:Z6I2
+l24
+L23
+VO`QJ27d[YAA9d@h=MX<<c3
+R5
+32
+R8
+R6
+R7
+!s100 zoK9XNTP7QbC`HERQ^6]f1

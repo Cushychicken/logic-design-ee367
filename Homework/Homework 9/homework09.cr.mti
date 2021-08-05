@@ -1,0 +1,53 @@
+{Z:/EE367/Homework/Homework 9/memory_interface.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 9/memory_interface.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity memory_interface
+-- Compiling architecture memory_interface_arch of memory_interface
+
+} {} {}} {Z:/EE367/Homework/Homework 9/test_rom.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 9/test_rom.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity test_rom
+-- Compiling architecture test_rom_arch of test_rom
+
+} {} {}} Z:/EE367/Homework/x_register.vhd {1 {vcom -work work -2002 -explicit Z:/EE367/Homework/x_register.vhd
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity x_register
+-- Compiling architecture x_register_arch of x_register
+
+} {} {}} {Z:/EE367/Homework/Homework 9/dflipflop.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 9/dflipflop.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity dflipflop
+-- Compiling architecture dff_arch of dflipflop
+
+} {} {}} {Z:/EE367/Homework/Homework 9/test_memory_interface.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 9/test_memory_interface.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity test_memory_interface
+-- Compiling architecture test_memory_interface_arch of test_memory_interface
+
+} {} {}} {Z:/EE367/Homework/Homework 9/rom_16x8_sync.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 9/rom_16x8_sync.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity rom_16x8_sync
+-- Compiling architecture rom_16x8_sync_arch of rom_16x8_sync
+
+} {} {}}

@@ -1,0 +1,72 @@
+{Z:/EE367/Final Project/processing_unit.vhd} {2 {vcom -work work -2002 -explicit {Z:/EE367/Final Project/processing_unit.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity processing_unit
+-- Compiling architecture rtl of processing_unit
+** Warning: Z:/EE367/Final Project/processing_unit.vhd(177): Case choice must be a locally static expression.
+** Warning: Z:/EE367/Final Project/processing_unit.vhd(178): Case choice must be a locally static expression.
+** Warning: Z:/EE367/Final Project/processing_unit.vhd(179): Case choice must be a locally static expression.
+** Warning: Z:/EE367/Final Project/processing_unit.vhd(180): Case choice must be a locally static expression.
+** Warning: Z:/EE367/Final Project/processing_unit.vhd(181): Case choice must be a locally static expression.
+** Warning: Z:/EE367/Final Project/processing_unit.vhd(182): Case choice must be a locally static expression.
+** Warning: Z:/EE367/Final Project/processing_unit.vhd(183): Case choice must be a locally static expression.
+** Warning: Z:/EE367/Final Project/processing_unit.vhd(184): Case choice must be a locally static expression.
+
+} {} {}} {Z:/EE367/Final Project/control_unit.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Final Project/control_unit.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity control_unit
+-- Compiling architecture rtl of control_unit
+
+} {} {}} {Z:/EE367/Final Project/cpu.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Final Project/cpu.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity cpu
+-- Compiling architecture rtl of cpu
+
+} {} {}} {Z:/EE367/Final Project/test_microcomputer.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Final Project/test_microcomputer.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity test_microcomputer
+-- Compiling architecture test_microcomputer_arch of test_microcomputer
+
+} {} {}} {Z:/EE367/Final Project/ram_64x8_sync.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Final Project/ram_64x8_sync.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity ram_64x8_sync
+-- Compiling architecture rtl of ram_64x8_sync
+
+} {} {}} {Z:/EE367/Final Project/memory.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Final Project/memory.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity memory
+-- Compiling architecture rtl of memory
+
+} {} {}} {Z:/EE367/Final Project/microcomputer.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Final Project/microcomputer.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity microcomputer
+-- Compiling architecture rtl of microcomputer
+
+} {} {}}

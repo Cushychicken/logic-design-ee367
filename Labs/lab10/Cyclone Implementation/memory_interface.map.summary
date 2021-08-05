@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Apr 20 15:13:22 2011
+Quartus II Version : 10.0 Build 262 08/18/2010 SP 1 SJ Full Version
+Revision Name : memory_interface
+Top-level Entity Name : memory_interface
+Family : Cyclone II
+Total logic elements : 245
+    Total combinational functions : 174
+    Dedicated logic registers : 148
+Total registers : 148
+Total pins : 85
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

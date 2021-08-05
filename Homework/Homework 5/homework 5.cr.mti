@@ -1,0 +1,29 @@
+{Z:/EE367/Homework/Homework 5/and3.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 5/and3.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity and3
+-- Compiling architecture and3_arch of and3
+
+} {} {}} {Z:/EE367/Homework/Homework 5/inv1.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 5/inv1.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity inv1
+-- Compiling architecture inv1_arch of inv1
+
+} {} {}} {Z:/EE367/Homework/Homework 5/test_decoder_3to8.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 5/test_decoder_3to8.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity test_decoder_3to8
+-- Compiling architecture test_decoder_3to8_arch of test_decoder_3to8
+
+} {} {}} {Z:/EE367/Homework/Homework 5/Case Instantiation/decoder_3to8.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 5/Case Instantiation/decoder_3to8.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity decoder_3to8
+-- Compiling architecture decoder_3to8_arch of decoder_3to8
+
+} {} {}}

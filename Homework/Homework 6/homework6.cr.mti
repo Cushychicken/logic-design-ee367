@@ -1,0 +1,38 @@
+{Z:/EE367/Homework/Homework 6/cla.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 6/cla.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity cla
+-- Compiling architecture cla_arch of cla
+
+} {} {}} {Z:/EE367/Homework/Homework 6/rca.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 6/rca.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity rca
+-- Compiling architecture rca_arch of rca
+
+} {} {}} {Z:/EE367/Homework/Homework 6/full_adder.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 6/full_adder.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity full_adder
+-- Compiling architecture full_adder_arch of full_adder
+
+} {} {}} {Z:/EE367/Homework/Homework 6/half_adder.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 6/half_adder.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity half_adder
+-- Compiling architecture half_adder_arch of half_adder
+
+} {} {}} {Z:/EE367/Homework/Homework 6/test_adder.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 6/test_adder.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity test_adder
+-- Compiling architecture test_adder_arch of test_adder
+
+} {} {}}

@@ -1,0 +1,261 @@
+m255
+K3
+13
+cModel Technology
+dZ:\EE367\Homework\Homework 10
+Econtrol_unit
+Z0 w1304529350
+Z1 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z3 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 dZ:\EE367\Final Project
+Z5 8Z:/EE367/Final Project/control_unit.vhd
+Z6 FZ:/EE367/Final Project/control_unit.vhd
+l0
+L19
+V8]e9e6ZSHSM1`Ee4UK<Nn2
+Z7 OV;C;6.5e;42
+32
+Z8 o-work work -2002 -explicit -O0
+Z9 tExplicit 1
+!s100 OgjzWV2ND66O?Ng1;Y>Mh0
+Artl
+R1
+R2
+R3
+DEx4 work 12 control_unit 0 22 8]e9e6ZSHSM1`Ee4UK<Nn2
+l140
+L64
+VcWee^kbg6SN;nlQ?>>L_e0
+!s100 LSmOhKmhH5_46I8MKdUj50
+R7
+32
+Z10 Mx3 4 ieee 14 std_logic_1164
+Z11 Mx2 4 ieee 18 std_logic_unsigned
+Z12 Mx1 4 ieee 15 std_logic_arith
+R8
+R9
+Ecpu
+Z13 w1303670282
+R1
+R2
+R3
+R4
+Z14 8Z:/EE367/Final Project/cpu.vhd
+Z15 FZ:/EE367/Final Project/cpu.vhd
+l0
+L19
+V_]?bT][gkjeY@o<NeflWG3
+R7
+32
+R8
+R9
+!s100 mBIe7OaYMLJBJU<Io^hJa0
+Artl
+R1
+R2
+R3
+DEx4 work 3 cpu 0 22 _]?bT][gkjeY@o<NeflWG3
+l90
+L28
+VzDLPERHP4AE[B=H@i`Soh2
+R7
+32
+R10
+R11
+R12
+R8
+R9
+!s100 W=cXKYj[J7XhOMLoAT4Q00
+Ememory
+Z16 w1304375406
+R1
+R2
+R3
+R4
+Z17 8Z:/EE367/Final Project/memory.vhd
+Z18 FZ:/EE367/Final Project/memory.vhd
+l0
+L32
+V[A_lMj4;j4fIPa<]12ld30
+R7
+32
+R8
+R9
+!s100 ZICI5]HdD[];[fJW_kk0Z3
+Artl
+R1
+R2
+R3
+DEx4 work 6 memory 0 22 [A_lMj4;j4fIPa<]12ld30
+l90
+L63
+V;dzF8M_GEibZ53kBXUE691
+R7
+32
+R10
+R11
+R12
+R8
+R9
+!s100 `dAT]hHak9Anl_83cYBZg2
+Emicrocomputer
+Z19 w1304527692
+R1
+R2
+R3
+R4
+Z20 8Z:/EE367/Final Project/microcomputer.vhd
+Z21 FZ:/EE367/Final Project/microcomputer.vhd
+l0
+L19
+V2RQc[dV`bC>BN0BajPAGD3
+R7
+32
+R8
+R9
+!s100 zE=UVgkTFmmcDz_CCgM2>0
+Artl
+R1
+R2
+R3
+DEx4 work 13 microcomputer 0 22 2RQc[dV`bC>BN0BajPAGD3
+l98
+L46
+VTlH[7bI@gOd]No;M^;Y[A3
+R7
+32
+R10
+R11
+R12
+R8
+R9
+!s100 j2lfDndZ5bm2He7YIijU40
+Eprocessing_unit
+Z22 w1304529319
+R1
+R2
+R3
+R4
+Z23 8Z:/EE367/Final Project/processing_unit.vhd
+Z24 FZ:/EE367/Final Project/processing_unit.vhd
+l0
+L20
+VMSeYY>@F6]XU>ckemiElH2
+!s100 ago[9ZHP;<c^YHFUZGAEH2
+R7
+32
+R8
+R9
+Artl
+R1
+R2
+R3
+Z25 DEx4 work 15 processing_unit 0 22 MSeYY>@F6]XU>ckemiElH2
+l64
+L52
+Z26 V=iP1Sdg4f=EHe`1l=nA=a3
+Z27 !s100 BCfo10Oa@eg?<4=79Ez@]2
+R7
+32
+R10
+R11
+R12
+R8
+R9
+Eram_64x8_sync
+Z28 w1302559965
+R1
+R2
+R3
+R4
+Z29 8Z:/EE367/Final Project/ram_64x8_sync.vhd
+Z30 FZ:/EE367/Final Project/ram_64x8_sync.vhd
+l0
+L25
+VFH`o?=kY[TIX0>38K0MCo0
+R7
+32
+R8
+R9
+!s100 GDE70cA[[iK4O]Q=UR4Bo1
+Artl
+R1
+R2
+R3
+DEx4 work 13 ram_64x8_sync 0 22 FH`o?=kY[TIX0>38K0MCo0
+l39
+L34
+VN`Q2MKdhL7]<jBYh_3:;B2
+R7
+32
+R10
+R11
+R12
+R8
+R9
+!s100 FHm@I:8YDIgzH<Hg@RUmK1
+Erom_128x8_sync
+Z31 w1304527982
+R1
+R2
+R3
+R4
+Z32 8Z:/EE367/Final Project/rom_128x8_sync.vhd
+Z33 FZ:/EE367/Final Project/rom_128x8_sync.vhd
+l0
+L26
+VI?^DP?CPIN<m6RV2X0X0O2
+R7
+32
+R8
+R9
+!s100 o]AJl9>Wf<>?_<40[<FH51
+Artl
+R1
+R2
+R3
+DEx4 work 14 rom_128x8_sync 0 22 I?^DP?CPIN<m6RV2X0X0O2
+l154
+L55
+V[j_D`G3G>@aTXb]mon]jZ1
+R7
+32
+R10
+R11
+R12
+R8
+R9
+!s100 HDPA@LnS]HXLc2Wnn[KZ93
+Etest_microcomputer
+Z34 w1304527569
+R2
+R1
+R3
+R4
+Z35 8Z:/EE367/Final Project/test_microcomputer.vhd
+Z36 FZ:/EE367/Final Project/test_microcomputer.vhd
+l0
+L24
+VBd@=2WnhVi9KM]F0iz1bM2
+R7
+32
+R8
+R9
+!s100 ?GeD;Ak_>X4JCTUOPiEP63
+Atest_microcomputer_arch
+R2
+R1
+R3
+DEx4 work 18 test_microcomputer 0 22 Bd@=2WnhVi9KM]F0iz1bM2
+l88
+L27
+VY9`JUC:RG41oHCLP]SVlJ0
+R7
+32
+R10
+Mx2 4 ieee 15 std_logic_arith
+Mx1 4 ieee 18 std_logic_unsigned
+R8
+R9
+!s100 eL^;CShnJMle`8f]zkOgG0

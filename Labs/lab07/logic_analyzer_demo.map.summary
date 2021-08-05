@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Mar 02 16:42:06 2011
+Quartus II Version : 10.0 Build 218 06/27/2010 SJ Full Version
+Revision Name : logic_analyzer_demo
+Top-level Entity Name : logic_analyzer_demo
+Family : Cyclone II
+Total logic elements : 101
+    Total combinational functions : 101
+    Dedicated logic registers : 78
+Total registers : 78
+Total pins : 85
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

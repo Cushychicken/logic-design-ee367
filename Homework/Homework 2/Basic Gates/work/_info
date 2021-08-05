@@ -1,0 +1,239 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\10.0
+Eand2
+Z0 w1295916038
+Z1 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z2 dZ:\EE367\Homework\Homework 2\Basic Gates
+Z3 8Z:/EE367/Homework/Homework 2/Basic Gates/and2.vhd
+Z4 FZ:/EE367/Homework/Homework 2/Basic Gates/and2.vhd
+l0
+L21
+VOn7[1E9Zg`>PC1Qk2<`aF0
+Z5 OV;C;6.5e;42
+32
+Z6 o-work work -2002 -explicit -O0
+Z7 tExplicit 1
+!s100 f>lG]3ERj`R9mfJZ6Chh81
+Aand2_arch
+R1
+DEx4 work 4 and2 0 22 On7[1E9Zg`>PC1Qk2<`aF0
+l30
+L29
+VeF@dk@Vo9YV2YBX6Ez_RQ3
+R5
+32
+Z8 Mx1 4 ieee 14 std_logic_1164
+R6
+R7
+!s100 HaHd48@cHDSCS;>XWzm=G1
+Ebuf1
+Z9 w1295915518
+R1
+R2
+Z10 8Z:/EE367/Homework/Homework 2/Basic Gates/buf1.vhd
+Z11 FZ:/EE367/Homework/Homework 2/Basic Gates/buf1.vhd
+l0
+L21
+VjY=FD^0Q2FQEFnib6G]E?3
+R5
+32
+R6
+R7
+!s100 H`PV^Q7P]aQP2A4^@fb1m0
+Abuf1_arch
+R1
+DEx4 work 4 buf1 0 22 jY=FD^0Q2FQEFnib6G]E?3
+l30
+L29
+V7Q^oCHnQJ`CP6=0o6P0?l1
+R5
+32
+R8
+R6
+R7
+!s100 `:jJe1_g=gP3kdHY0EOQ^1
+Einv1
+Z12 w1295915430
+R1
+R2
+Z13 8Z:/EE367/Homework/Homework 2/Basic Gates/inv1.vhd
+Z14 FZ:/EE367/Homework/Homework 2/Basic Gates/inv1.vhd
+l0
+L21
+V=E8b:`mAZ0kke0kjAPm6F0
+R5
+32
+R6
+R7
+!s100 iHBSdlOfFEIH725CYeIU72
+Ainv1_arch
+R1
+DEx4 work 4 inv1 0 22 =E8b:`mAZ0kke0kjAPm6F0
+l30
+L29
+VS9LN3iJed3DdWgQRmKbHf2
+R5
+32
+R8
+R6
+R7
+!s100 n]@ga[C2@DZgV5eJM3B5Y3
+Enand2
+Z15 w1295915864
+R1
+R2
+Z16 8Z:/EE367/Homework/Homework 2/Basic Gates/nand2.vhd
+Z17 FZ:/EE367/Homework/Homework 2/Basic Gates/nand2.vhd
+l0
+L21
+Vilmk40BCbmdCNWD0cf[_h2
+R5
+32
+R6
+R7
+!s100 I9GPiQXoTjXG0`PI8A>CF3
+Anand2_arch
+R1
+DEx4 work 5 nand2 0 22 ilmk40BCbmdCNWD0cf[_h2
+l30
+L29
+V0SXZIEg3HU8GajgTlAcbA3
+R5
+32
+R8
+R6
+R7
+!s100 2:S<;O>8cRgh9XALamBlU3
+Enor2
+Z18 w1295916315
+R1
+R2
+Z19 8Z:/EE367/Homework/Homework 2/Basic Gates/nor2.vhd
+Z20 FZ:/EE367/Homework/Homework 2/Basic Gates/nor2.vhd
+l0
+L21
+VYMooA_d9MBYO1G[jg^kZb1
+R5
+32
+R6
+R7
+!s100 Z8gz`Ql6Q<4dlW=oMP65S1
+Anor2_arch
+R1
+DEx4 work 4 nor2 0 22 YMooA_d9MBYO1G[jg^kZb1
+l30
+L29
+VgKj>_`E6^RiMLdG:g;NTh2
+R5
+32
+R8
+R6
+R7
+!s100 5DW?D00i61ClMjB1Kk[^d1
+Eor2
+Z21 w1295916143
+R1
+R2
+Z22 8Z:/EE367/Homework/Homework 2/Basic Gates/or2.vhd
+Z23 FZ:/EE367/Homework/Homework 2/Basic Gates/or2.vhd
+l0
+L21
+VF;oS4]c@TJ=0CE]>]N=oP2
+R5
+32
+R6
+R7
+!s100 YTeC??L3moo@YYMbMZGYk1
+Aor2_arch
+R1
+DEx4 work 3 or2 0 22 F;oS4]c@TJ=0CE]>]N=oP2
+l30
+L29
+VbbkzZ]KOlcT794hB]9Gd<3
+R5
+32
+R8
+R6
+R7
+!s100 nZ5iBNP;b0_1aV;[i2<4a2
+Etest_logic_gates
+Z24 w1295916834
+R1
+R2
+Z25 8Z:/EE367/Homework/Homework 2/Basic Gates/test_logic_gates.vhd
+Z26 FZ:/EE367/Homework/Homework 2/Basic Gates/test_logic_gates.vhd
+l0
+L20
+VP25J1a4^:K[;564Gn>N@`1
+R5
+32
+R6
+R7
+!s100 jamHbIDPlcZ@1gKN>4AmI0
+Atest_logic_gates_arch
+R1
+DEx4 work 16 test_logic_gates 0 22 P25J1a4^:K[;564Gn>N@`1
+l46
+L23
+VSiDmi]9Jz9?^P44M`mO4Q2
+R5
+32
+R8
+R6
+R7
+!s100 d[Cg9M6FVX8ECE]>;86YA1
+Exnor2
+Z27 w1295916875
+R1
+R2
+Z28 8Z:/EE367/Homework/Homework 2/Basic Gates/xnor2.vhd
+Z29 FZ:/EE367/Homework/Homework 2/Basic Gates/xnor2.vhd
+l0
+L21
+V>8A=3NUMM0:8j<F5^ZbiG1
+!s100 89mMg77O[2S[a[nUTMh7i1
+R5
+32
+R6
+R7
+Axnor2_arch
+R1
+DEx4 work 5 xnor2 0 22 >8A=3NUMM0:8j<F5^ZbiG1
+l30
+L29
+V8a62Q`_5zk?TfUE_@;_AK3
+!s100 @c@7n4Ma0TocDJH;OcO^d2
+R5
+32
+R8
+R6
+R7
+Exor2
+Z30 w1295916653
+R1
+R2
+Z31 8Z:/EE367/Homework/Homework 2/Basic Gates/xor2.vhd
+Z32 FZ:/EE367/Homework/Homework 2/Basic Gates/xor2.vhd
+l0
+L21
+V`ikOLe^U76U[IRoWd:Z6I2
+R5
+32
+R6
+R7
+!s100 C[:7QIh0j=OBF7VoeK<0W3
+Axor2_arch
+R1
+DEx4 work 4 xor2 0 22 `ikOLe^U76U[IRoWd:Z6I2
+l30
+L29
+V=R2Zf_2VE8IT_QDcR5Rm43
+!s100 i5mnTl:;1kcD5gYVVX`8e3
+R5
+32
+R8
+R6
+R7

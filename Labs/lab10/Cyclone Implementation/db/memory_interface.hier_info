@@ -1,0 +1,550 @@
+|memory_interface
+SW[0] => clock_div:U3.Sel[0]
+SW[1] => clock_div:U3.Sel[1]
+SW[2] => clock_div:U3.Sel[2]
+SW[3] => clock_div:U3.Sel[3]
+SW[4] => clock_div:U3.Sel[4]
+SW[5] => ~NO_FANOUT~
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+SW[8] => ~NO_FANOUT~
+SW[9] => ~NO_FANOUT~
+SW[10] => ~NO_FANOUT~
+SW[11] => ~NO_FANOUT~
+SW[12] => ~NO_FANOUT~
+SW[13] => ~NO_FANOUT~
+SW[14] => ~NO_FANOUT~
+SW[15] => ~NO_FANOUT~
+SW[16] => ~NO_FANOUT~
+SW[17] => ~NO_FANOUT~
+KEY[0] => clock_div:U3.Reset
+KEY[0] => x_reg[0].ACLR
+KEY[0] => x_reg[1].ACLR
+KEY[0] => x_reg[2].ACLR
+KEY[0] => x_reg[3].ACLR
+KEY[0] => addr_count[0].ACLR
+KEY[0] => addr_count[1].ACLR
+KEY[0] => addr_count[2].ACLR
+KEY[0] => addr_count[3].ACLR
+KEY[0] => current_state~3.DATAIN
+KEY[1] => ~NO_FANOUT~
+KEY[2] => ~NO_FANOUT~
+KEY[3] => ~NO_FANOUT~
+CLOCK_50 => clock_div:U3.Clock_In
+LEDR[0] <= x_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= x_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= x_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] <= x_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[4] <= ram_16x4_sync:U2.data_out[0]
+LEDR[5] <= ram_16x4_sync:U2.data_out[1]
+LEDR[6] <= ram_16x4_sync:U2.data_out[2]
+LEDR[7] <= ram_16x4_sync:U2.data_out[3]
+LEDR[8] <= rom_16x4_sync:U1.data_out[0]
+LEDR[9] <= rom_16x4_sync:U1.data_out[1]
+LEDR[10] <= rom_16x4_sync:U1.data_out[2]
+LEDR[11] <= rom_16x4_sync:U1.data_out[3]
+LEDR[12] <= <GND>
+LEDR[13] <= <GND>
+LEDR[14] <= <GND>
+LEDR[15] <= <GND>
+LEDR[16] <= <GND>
+LEDR[17] <= <GND>
+LEDG[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+LEDG[1] <= LEDG[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDG[2] <= LEDG[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDG[3] <= LEDG[3].DB_MAX_OUTPUT_PORT_TYPE
+LEDG[4] <= LEDG[4].DB_MAX_OUTPUT_PORT_TYPE
+LEDG[5] <= LEDG[5].DB_MAX_OUTPUT_PORT_TYPE
+LEDG[6] <= LEDG[6].DB_MAX_OUTPUT_PORT_TYPE
+LEDG[7] <= LEDG[7].DB_MAX_OUTPUT_PORT_TYPE
+GPIO_0[0] <= <GND>
+GPIO_0[1] <= addr_count[0].DB_MAX_OUTPUT_PORT_TYPE
+GPIO_0[2] <= <GND>
+GPIO_0[3] <= addr_count[1].DB_MAX_OUTPUT_PORT_TYPE
+GPIO_0[4] <= <GND>
+GPIO_0[5] <= addr_count[2].DB_MAX_OUTPUT_PORT_TYPE
+GPIO_0[6] <= <GND>
+GPIO_0[7] <= addr_count[3].DB_MAX_OUTPUT_PORT_TYPE
+GPIO_0[8] <= <GND>
+GPIO_0[9] <= rom_16x4_sync:U1.data_out[0]
+GPIO_0[10] <= <GND>
+GPIO_0[11] <= rom_16x4_sync:U1.data_out[1]
+GPIO_0[12] <= <GND>
+GPIO_0[13] <= rom_16x4_sync:U1.data_out[2]
+GPIO_0[14] <= <GND>
+GPIO_0[15] <= rom_16x4_sync:U1.data_out[3]
+GPIO_0[16] <= <GND>
+GPIO_0[17] <= ram_16x4_sync:U2.data_out[0]
+GPIO_0[18] <= <GND>
+GPIO_0[19] <= ram_16x4_sync:U2.data_out[1]
+GPIO_0[20] <= <GND>
+GPIO_0[21] <= ram_16x4_sync:U2.data_out[2]
+GPIO_0[22] <= <GND>
+GPIO_0[23] <= ram_16x4_sync:U2.data_out[3]
+GPIO_0[24] <= <GND>
+GPIO_0[25] <= rom_en.DB_MAX_OUTPUT_PORT_TYPE
+GPIO_0[26] <= <GND>
+GPIO_0[27] <= ram_write.DB_MAX_OUTPUT_PORT_TYPE
+GPIO_0[28] <= <GND>
+GPIO_0[29] <= ram_en.DB_MAX_OUTPUT_PORT_TYPE
+GPIO_0[30] <= <GND>
+GPIO_0[31] <= addr_count_clr.DB_MAX_OUTPUT_PORT_TYPE
+GPIO_0[32] <= <GND>
+GPIO_0[33] <= addr_count_inc.DB_MAX_OUTPUT_PORT_TYPE
+GPIO_0[34] <= <GND>
+GPIO_0[35] <= <GND>
+
+
+|memory_interface|rom_16x4_sync:U1
+clock => data_out[0]~reg0.CLK
+clock => data_out[1]~reg0.CLK
+clock => data_out[2]~reg0.CLK
+clock => data_out[3]~reg0.CLK
+en => data_out[0]~reg0.ENA
+en => data_out[1]~reg0.ENA
+en => data_out[2]~reg0.ENA
+en => data_out[3]~reg0.ENA
+address[0] => data_out[0]~reg0.DATAIN
+address[1] => data_out[1]~reg0.DATAIN
+address[2] => data_out[2]~reg0.DATAIN
+address[3] => data_out[3]~reg0.DATAIN
+data_out[0] <= data_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|ram_16x4_sync:U2
+clock => RAM~8.CLK
+clock => RAM~0.CLK
+clock => RAM~1.CLK
+clock => RAM~2.CLK
+clock => RAM~3.CLK
+clock => RAM~4.CLK
+clock => RAM~5.CLK
+clock => RAM~6.CLK
+clock => RAM~7.CLK
+clock => data_out[0]~reg0.CLK
+clock => data_out[1]~reg0.CLK
+clock => data_out[2]~reg0.CLK
+clock => data_out[3]~reg0.CLK
+clock => RAM.CLK0
+en => RAM.OUTPUTSELECT
+en => data_out[0]~reg0.ENA
+en => data_out[1]~reg0.ENA
+en => data_out[2]~reg0.ENA
+en => data_out[3]~reg0.ENA
+write_ram => data_out.OUTPUTSELECT
+write_ram => data_out.OUTPUTSELECT
+write_ram => data_out.OUTPUTSELECT
+write_ram => data_out.OUTPUTSELECT
+write_ram => RAM.DATAB
+address[0] => RAM~3.DATAIN
+address[0] => RAM.WADDR
+address[0] => RAM.RADDR
+address[1] => RAM~2.DATAIN
+address[1] => RAM.WADDR1
+address[1] => RAM.RADDR1
+address[2] => RAM~1.DATAIN
+address[2] => RAM.WADDR2
+address[2] => RAM.RADDR2
+address[3] => RAM~0.DATAIN
+address[3] => RAM.WADDR3
+address[3] => RAM.RADDR3
+data_out[0] <= data_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data_in[0] => RAM~7.DATAIN
+data_in[0] => RAM.DATAIN
+data_in[1] => RAM~6.DATAIN
+data_in[1] => RAM.DATAIN1
+data_in[2] => RAM~5.DATAIN
+data_in[2] => RAM.DATAIN2
+data_in[3] => RAM~4.DATAIN
+data_in[3] => RAM.DATAIN3
+
+
+|memory_interface|clock_div:U3
+Clock_In => Mux0.IN0
+Clock_In => dflipflop:D1.Clock
+Reset => dflipflop:D1.Reset
+Reset => dflipflop:D2.Reset
+Reset => dflipflop:D3.Reset
+Reset => dflipflop:D4.Reset
+Reset => dflipflop:D5.Reset
+Reset => dflipflop:D6.Reset
+Reset => dflipflop:D7.Reset
+Reset => dflipflop:D8.Reset
+Reset => dflipflop:D9.Reset
+Reset => dflipflop:D10.Reset
+Reset => dflipflop:D11.Reset
+Reset => dflipflop:D12.Reset
+Reset => dflipflop:D13.Reset
+Reset => dflipflop:D14.Reset
+Reset => dflipflop:D15.Reset
+Reset => dflipflop:D16.Reset
+Reset => dflipflop:D17.Reset
+Reset => dflipflop:D18.Reset
+Reset => dflipflop:D19.Reset
+Reset => dflipflop:D20.Reset
+Reset => dflipflop:D21.Reset
+Reset => dflipflop:D22.Reset
+Reset => dflipflop:D23.Reset
+Reset => dflipflop:D24.Reset
+Reset => dflipflop:D25.Reset
+Reset => dflipflop:D26.Reset
+Reset => dflipflop:D27.Reset
+Reset => dflipflop:D28.Reset
+Reset => dflipflop:D29.Reset
+Reset => dflipflop:D30.Reset
+Reset => dflipflop:D31.Reset
+Sel[0] => Mux0.IN5
+Sel[1] => Mux0.IN4
+Sel[2] => Mux0.IN3
+Sel[3] => Mux0.IN2
+Sel[4] => Mux0.IN1
+Clock_Out <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D1
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D2
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D3
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D4
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D5
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D6
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D7
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D8
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D9
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D10
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D11
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D12
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D13
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D14
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D15
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D16
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D17
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D18
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D19
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D20
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D21
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D22
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D23
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D24
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D25
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D26
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D27
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D28
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D29
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D30
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|memory_interface|clock_div:U3|dflipflop:D31
+Clock => Qn~reg0.CLK
+Clock => Q~reg0.CLK
+Reset => Qn~reg0.PRESET
+Reset => Q~reg0.ACLR
+D => Q~reg0.DATAIN
+D => Qn~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qn <= Qn~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

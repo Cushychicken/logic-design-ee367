@@ -1,0 +1,223 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\10.0
+Edflipflop
+Z0 w1299802629
+Z1 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z2 dZ:\EE367\Homework\Homework 9
+Z3 8Z:/EE367/Homework/Homework 9/dflipflop.vhd
+Z4 FZ:/EE367/Homework/Homework 9/dflipflop.vhd
+l0
+L19
+V<09@[eUBo_9DImMz9B;kP2
+Z5 OV;C;6.5e;42
+32
+Z6 o-work work -2002 -explicit -O0
+Z7 tExplicit 1
+!s100 S_ik?X;:5R:kgjLgbfeTP3
+Adff_arch
+R1
+DEx4 work 9 dflipflop 0 22 <09@[eUBo_9DImMz9B;kP2
+l29
+L27
+V:kQOfNCTT75QJUR`>8X_d0
+R5
+32
+Z8 Mx1 4 ieee 14 std_logic_1164
+R6
+R7
+!s100 m3O7YAhNK?FoX5>`DEh[Y3
+Ememory_interface
+Z9 w1302285510
+Z10 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z11 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+R1
+R2
+Z12 8Z:/EE367/Homework/Homework 9/memory_interface.vhd
+Z13 FZ:/EE367/Homework/Homework 9/memory_interface.vhd
+l0
+L27
+V]<ANAAP4m=^`Fb9OWkfBC2
+R5
+32
+R6
+R7
+!s100 8b4G8JJfeeLdUJl^YWL>o1
+Amemory_interface_arch
+R10
+R11
+R1
+DEx4 work 16 memory_interface 0 22 ]<ANAAP4m=^`Fb9OWkfBC2
+l48
+L32
+V7=BQ3o9IiehkCG_2jnQGD3
+!s100 1iE9J[3Ij^7A5>c4mJU?61
+R5
+32
+Z14 Mx3 4 ieee 14 std_logic_1164
+Z15 Mx2 4 ieee 18 std_logic_unsigned
+Z16 Mx1 4 ieee 15 std_logic_arith
+R6
+R7
+Erom_16_8_sync
+Z17 w1302107413
+R10
+R11
+R1
+R2
+Z18 8Z:/EE367/Homework/Homework 9/rom_16x8_sync.vhd
+Z19 FZ:/EE367/Homework/Homework 9/rom_16x8_sync.vhd
+l0
+L27
+V8:f9SZ>4<oIDj^G1SoZ9^0
+R5
+32
+R6
+R7
+!s100 J`FaG61OQfHaRL<G;6Y^B1
+Arom_16_8_sync_arch
+R10
+R11
+R1
+DEx4 work 13 rom_16_8_sync 0 22 8:f9SZ>4<oIDj^G1SoZ9^0
+l56
+L35
+VnP28nAYdDl8l0I6T53BcX2
+R5
+32
+R14
+R15
+R16
+R6
+R7
+!s100 Gf1kBmDY9nSPR?XnXR^>H1
+Erom_16x8_sync
+Z20 w1302120457
+R10
+R11
+R1
+R2
+R18
+R19
+l0
+L27
+Vj:fPPaYmWOh6E;0ii7H?D2
+R5
+32
+R6
+R7
+!s100 <hbdSbOOSN7;bPK?[8Hc@0
+Arom_16x8_sync_arch
+R10
+R11
+R1
+DEx4 work 13 rom_16x8_sync 0 22 j:fPPaYmWOh6E;0ii7H?D2
+l56
+L35
+V8<J2kW5?jAjRk07=3nULN2
+R5
+32
+R14
+R15
+R16
+R6
+R7
+!s100 jb>Qo5VESc>:;P8hEQIFl3
+Etest_memory_interface
+Z21 w1302031002
+R11
+R10
+R1
+R2
+Z22 8Z:/EE367/Homework/Homework 9/test_memory_interface.vhd
+Z23 FZ:/EE367/Homework/Homework 9/test_memory_interface.vhd
+l0
+L24
+VPa:zW9IU<RE@f:L1d>@Vn0
+R5
+32
+R6
+R7
+!s100 kDE:09A<WTj6Mc3d>Aa=A1
+Atest_memory_interface_arch
+R11
+R10
+R1
+DEx4 work 21 test_memory_interface 0 22 Pa:zW9IU<RE@f:L1d>@Vn0
+l43
+L27
+VN7YnF3V9fZRiR3gEb;SH13
+R5
+32
+R14
+Mx2 4 ieee 15 std_logic_arith
+Mx1 4 ieee 18 std_logic_unsigned
+R6
+R7
+!s100 N4PYR6z6I`KSd2WI>b@RX2
+Etest_rom
+Z24 w1302106510
+R10
+R11
+R1
+R2
+Z25 8Z:/EE367/Homework/Homework 9/test_rom.vhd
+Z26 FZ:/EE367/Homework/Homework 9/test_rom.vhd
+l0
+L27
+VZdoI_c89m?^4S7_40;nBi2
+!s100 CbA<UH;b;iz]nO8>RzEFZ0
+R5
+32
+R6
+R7
+Atest_rom_arch
+R10
+R11
+R1
+Z27 DEx4 work 8 test_rom 0 22 ZdoI_c89m?^4S7_40;nBi2
+l46
+L30
+Z28 VY>z4HbDX?R6@j6@zag`OF0
+Z29 !s100 >nWn:fZ9h6__2UVU6IZmJ3
+R5
+32
+R14
+R15
+R16
+R6
+R7
+Ex_register
+Z30 w1302032410
+R10
+R11
+R1
+R2
+Z31 8Z:/EE367/Homework/x_register.vhd
+Z32 FZ:/EE367/Homework/x_register.vhd
+l0
+L25
+ViGkK:<nC^[33Zzz@G=@D:1
+R5
+32
+R6
+R7
+!s100 ?ALe5FfLlj_X:KDo7RlMU3
+Ax_register_arch
+R10
+R11
+R1
+DEx4 work 10 x_register 0 22 iGkK:<nC^[33Zzz@G=@D:1
+l41
+L32
+V>>0<fZ7`mHKm_C1jA3`=Q3
+R5
+32
+R14
+R15
+R16
+R6
+R7
+!s100 _di<iV4<`7WOXc1VDeVke2

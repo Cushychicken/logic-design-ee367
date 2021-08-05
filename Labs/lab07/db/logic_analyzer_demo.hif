@@ -1,0 +1,158 @@
+Quartus II
+Version 10.0 Build 218 06/27/2010 SJ Full Version
+12
+1005
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+clock_div
+# storage
+db|logic_analyzer_demo.(1).cnf
+db|logic_analyzer_demo.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+clock_div.vhd
+14ad19d2471b8be1f09016389541de3e
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(sel)
+4 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+clock_div:U1
+}
+# lmf
+c:|altera|10.0|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+dflipflop
+# storage
+db|logic_analyzer_demo.(2).cnf
+db|logic_analyzer_demo.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+dflipflop.vhd
+61d53f45aaa4f85b2b87b25745275f6
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+clock_div:U1|dflipflop:D1
+clock_div:U1|dflipflop:D2
+clock_div:U1|dflipflop:D3
+clock_div:U1|dflipflop:D4
+clock_div:U1|dflipflop:D5
+clock_div:U1|dflipflop:D6
+clock_div:U1|dflipflop:D7
+clock_div:U1|dflipflop:D8
+clock_div:U1|dflipflop:D9
+clock_div:U1|dflipflop:D10
+clock_div:U1|dflipflop:D11
+clock_div:U1|dflipflop:D12
+clock_div:U1|dflipflop:D13
+clock_div:U1|dflipflop:D14
+clock_div:U1|dflipflop:D15
+clock_div:U1|dflipflop:D16
+clock_div:U1|dflipflop:D17
+clock_div:U1|dflipflop:D18
+clock_div:U1|dflipflop:D19
+clock_div:U1|dflipflop:D20
+clock_div:U1|dflipflop:D21
+clock_div:U1|dflipflop:D22
+clock_div:U1|dflipflop:D23
+clock_div:U1|dflipflop:D24
+clock_div:U1|dflipflop:D25
+clock_div:U1|dflipflop:D26
+clock_div:U1|dflipflop:D27
+clock_div:U1|dflipflop:D28
+clock_div:U1|dflipflop:D29
+clock_div:U1|dflipflop:D30
+clock_div:U1|dflipflop:D31
+}
+# lmf
+c:|altera|10.0|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+logic_analyzer_demo
+# storage
+db|logic_analyzer_demo.(0).cnf
+db|logic_analyzer_demo.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+logic_analyzer_demo.vhd
+0dced5ba6593084d7c56cd4f44c2
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+|
+}
+# lmf
+c:|altera|10.0|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# complete
+

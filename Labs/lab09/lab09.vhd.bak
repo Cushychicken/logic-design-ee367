@@ -1,0 +1,28 @@
+-----------------------------------------------------------------------------------
+-- File name   : lab09.vhd
+--
+-- Project     : Reaction Timer
+--
+-- Description : VHDL model of a reaction timer
+--
+-- Author(s)   : Nash Reilly
+--               Montana State University
+--
+-- Date        : March 23, 2011
+--
+-- Note(s)     : 
+--
+------------------------------------------------------------------------------------
+LIBRARY ieee ;
+USE IEEE.STD_LOGIC_1164.ALL ;
+use IEEE.STD_LOGIC_ARITH.ALL;    --  
+use IEEE.STD_LOGIC_UNSIGNED.ALL; --
+
+entity lab09 is
+	port(CLOCK_50 : IN  STD_LOGIC;
+		  KEY0	  : IN  STD_LOGIC;
+		  
+		  HEX0	  : OUT  std_logic_vector(6 downto 0);
+		  HEX1	  : OUT  std_logic_vector(6 downto 0);
+		  HEX2	  : OUT  std_logic_vector(6 downto 0);
+		  HEX3	  : OUT  std_logic_vector(6 downto 0);

@@ -1,0 +1,129 @@
+m255
+K3
+13
+cModel Technology
+dZ:\EE367\Homework\Homework 6
+Eclock_div
+Z0 w1299799163
+Z1 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z2 dZ:\EE367\Homework\Homework 7
+Z3 8Z:/EE367/Homework/Homework 7/clock_div.vhd
+Z4 FZ:/EE367/Homework/Homework 7/clock_div.vhd
+l0
+L20
+V<U5Y0faDPI=KGS`fS6ghL2
+Z5 OV;C;6.5e;42
+32
+Z6 o-work work -2002 -explicit -O0
+Z7 tExplicit 1
+!s100 =TcPAD8k;JI861e2z8Fkk3
+Aclock_div_arch
+R1
+DEx4 work 9 clock_div 0 22 <U5Y0faDPI=KGS`fS6ghL2
+l46
+L28
+V>JjCegCbbE;X<Ic[6Tn1z3
+R5
+32
+Z8 Mx1 4 ieee 14 std_logic_1164
+R6
+R7
+!s100 mVTRIPR[ak3=_1K>jYf6]3
+Eclock_div_tb
+w1299800121
+R1
+R2
+8Z:/EE367/Homework/Homework 7/clock_div_tb.vhd
+FZ:/EE367/Homework/Homework 7/clock_div_tb.vhd
+l0
+L19
+VeF?nCT:nZfU:2KgR?SB<03
+R5
+32
+R6
+R7
+!s100 MaeaB?QU;h0AWRVA[Q2Q82
+Edflipflop
+Z9 w1299799029
+R1
+R2
+Z10 8Z:/EE367/Labs/lab07/dflipflop.vhd
+Z11 FZ:/EE367/Labs/lab07/dflipflop.vhd
+l0
+L19
+V<09@[eUBo_9DImMz9B;kP2
+R5
+32
+R6
+R7
+!s100 S_ik?X;:5R:kgjLgbfeTP3
+Adff_arch
+R1
+DEx4 work 9 dflipflop 0 22 <09@[eUBo_9DImMz9B;kP2
+l29
+L27
+V:kQOfNCTT75QJUR`>8X_d0
+R5
+32
+R8
+R6
+R7
+!s100 m3O7YAhNK?FoX5>`DEh[Y3
+Emux_4to1
+Z12 w1299798991
+R1
+R2
+Z13 8Z:/EE367/Homework/Homework 7/mux_4to1.vhd
+Z14 FZ:/EE367/Homework/Homework 7/mux_4to1.vhd
+l0
+L19
+VZ62n9aV5f<G;T3=B4BIeE2
+R5
+32
+R6
+R7
+!s100 3gQdnSYlJKE738X9a4P;71
+Amux_4to1_arch
+R1
+DEx4 work 8 mux_4to1 0 22 Z62n9aV5f<G;T3=B4BIeE2
+l27
+L25
+VSPgjB50RcITS<CnR3@cib1
+R5
+32
+R8
+R6
+R7
+!s100 VIO[LHYdjoR8i6J6:5TnI2
+Etest_clock_div
+Z15 w1299800514
+Z16 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z17 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+R1
+R2
+Z18 8Z:/EE367/Homework/Homework 7/test_clock_div.vhd
+Z19 FZ:/EE367/Homework/Homework 7/test_clock_div.vhd
+l0
+L22
+VPN7RF:dc5]eVdoI@WPFj30
+!s100 Jn>l?4An=]=25DH1:gM^M2
+R5
+32
+R6
+R7
+Atest_clock_div_arch
+R16
+R17
+R1
+DEx4 work 14 test_clock_div 0 22 PN7RF:dc5]eVdoI@WPFj30
+l41
+L25
+VazBzJ7f<EVE3ieCz;iYJf2
+!s100 jje^R:`0[3Q:@P5^T>E1]1
+R5
+32
+Z20 Mx3 4 ieee 14 std_logic_1164
+Mx2 4 ieee 15 std_logic_arith
+Mx1 4 ieee 18 std_logic_unsigned
+R6
+R7

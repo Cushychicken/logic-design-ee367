@@ -1,0 +1,83 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\10.0
+Ebcd_to_7seg
+Z0 w1297327026
+Z1 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z2 dZ:\EE367\Homework\Homework 4
+Z3 8Z:/EE367/Homework/Homework 4/bcd_to_7seg.vhd
+Z4 FZ:/EE367/Homework/Homework 4/bcd_to_7seg.vhd
+l0
+L18
+VSaeIU?U;KM??E8Ggc^k3B3
+Z5 OV;C;6.5e;42
+32
+Z6 o-work work -2002 -explicit -O0
+Z7 tExplicit 1
+!s100 5OiQjKfLg4]@?JM2SblgY3
+Abcd_to_7seg_arch
+R1
+DEx4 work 11 bcd_to_7seg 0 22 SaeIU?U;KM??E8Ggc^k3B3
+l25
+L24
+V?NLnHE1bW1BIiY;^DT`TU3
+R5
+32
+Z8 Mx1 4 ieee 14 std_logic_1164
+R6
+R7
+!s100 AX`a;C:[;ZnE3VlXigUcS3
+Ebcd_to_7seg_decimal
+Z9 w1297327138
+R1
+R2
+Z10 8Z:/EE367/Homework/Homework 4/bcd_to_7seg_decimal.vhd
+Z11 FZ:/EE367/Homework/Homework 4/bcd_to_7seg_decimal.vhd
+l0
+L18
+VomPg:R15HC^7F@Ymn8W370
+!s100 fL^jT<m[3VHQmFELm@Y?@1
+R5
+32
+R6
+R7
+Abcd_to_7seg_decimal_arch
+R1
+Z12 DEx4 work 19 bcd_to_7seg_decimal 0 22 omPg:R15HC^7F@Ymn8W370
+l25
+L24
+Z13 VM;8DPI:_Vjn=TW_YI6_aA0
+Z14 !s100 lTZZ4Z^O;oh_kV;7ARNWY2
+R5
+32
+R8
+R6
+R7
+Ebcd_to_7seg_decimal_tb
+Z15 w1297298080
+R1
+R2
+Z16 8Z:/EE367/Homework/Homework 4/bcd_to_7seg_decimal_TB.vhd
+Z17 FZ:/EE367/Homework/Homework 4/bcd_to_7seg_decimal_TB.vhd
+l0
+L20
+VJ6I3D7lDDGcZ<4bO6@7nX2
+R5
+32
+R6
+R7
+!s100 9eU:aNeF[8XU:5zi:Sj9A2
+Abcd_to_7seg_decimal_tb_arch
+R1
+DEx4 work 22 bcd_to_7seg_decimal_tb 0 22 J6I3D7lDDGcZ<4bO6@7nX2
+l30
+L23
+VPKH<`fljio8dHP1mheZR83
+!s100 <V9jkFzoV9;;?QRGbNE`@1
+R5
+32
+R8
+R6
+R7

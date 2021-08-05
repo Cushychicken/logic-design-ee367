@@ -1,0 +1,136 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 54.300 ns
+From           : addr_count[3]
+To             : GPIO_0[7]
+From Clock     : CLOCK_50
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLOCK_50'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 23.57 MHz ( period = 42.428 ns )
+From           : addr_count[2]
+To             : ram_16x4_sync:U2|data_out[2]
+From Clock     : CLOCK_50
+To Clock       : CLOCK_50
+Failed Paths   : 0
+
+Type           : Clock Setup: 'SW[1]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 187.09 MHz ( period = 5.345 ns )
+From           : addr_count[2]
+To             : ram_16x4_sync:U2|data_out[2]
+From Clock     : SW[1]
+To Clock       : SW[1]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'SW[3]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 208.42 MHz ( period = 4.798 ns )
+From           : addr_count[2]
+To             : ram_16x4_sync:U2|data_out[2]
+From Clock     : SW[3]
+To Clock       : SW[3]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'SW[0]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 209.82 MHz ( period = 4.766 ns )
+From           : addr_count[2]
+To             : ram_16x4_sync:U2|data_out[2]
+From Clock     : SW[0]
+To Clock       : SW[0]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'SW[2]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 216.31 MHz ( period = 4.623 ns )
+From           : addr_count[2]
+To             : ram_16x4_sync:U2|data_out[2]
+From Clock     : SW[2]
+To Clock       : SW[2]
+Failed Paths   : 0
+
+Type           : Clock Setup: 'SW[4]'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 273.60 MHz ( period = 3.655 ns )
+From           : addr_count[2]
+To             : ram_16x4_sync:U2|data_out[2]
+From Clock     : SW[4]
+To Clock       : SW[4]
+Failed Paths   : 0
+
+Type           : Clock Hold: 'CLOCK_50'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : addr_count[1]
+To             : addr_count[1]
+From Clock     : CLOCK_50
+To Clock       : CLOCK_50
+Failed Paths   : 734
+
+Type           : Clock Hold: 'SW[1]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : addr_count[1]
+To             : addr_count[1]
+From Clock     : SW[1]
+To Clock       : SW[1]
+Failed Paths   : 129
+
+Type           : Clock Hold: 'SW[3]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : addr_count[1]
+To             : addr_count[1]
+From Clock     : SW[3]
+To Clock       : SW[3]
+Failed Paths   : 62
+
+Type           : Clock Hold: 'SW[0]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : addr_count[1]
+To             : addr_count[1]
+From Clock     : SW[0]
+To Clock       : SW[0]
+Failed Paths   : 49
+
+Type           : Clock Hold: 'SW[2]'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : addr_count[1]
+To             : addr_count[1]
+From Clock     : SW[2]
+To Clock       : SW[2]
+Failed Paths   : 31
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 1005
+
+--------------------------------------------------------------------------------------
+

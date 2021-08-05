@@ -1,0 +1,21 @@
+-----------------------------------------------------------------------------------
+-- File name   : lab05.vhd
+--
+-- Project     : 4 bit adder
+--
+-- Description : Using full adder to make 4 bit adder circuit
+--
+-- Author(s)   : Nash Reilly
+--               Montana State University
+--
+-- Due Date    : February 16, 2011
+--
+-- Note(s)     : This file contains the Entity and Architecture to create a 7 segment decoder for driving a 7 segment display
+--               Concurrent Signal Assignments Statements and Logic Operator
+--
+------------------------------------------------------------------------------------
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+entity 

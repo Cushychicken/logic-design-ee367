@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="de2_port">
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_port|microcomputer:U1|memory:MEMORY_1|ram_64x8_sync:U2|altsyncram:RAM_rtl_0" CBX_FILE_NAME="altsyncram_v7i1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|de2_port|microcomputer:U1|memory:MEMORY_1|rom_128x8_sync:U1|altsyncram:Mux7_rtl_1" CBX_FILE_NAME="altsyncram_fb01.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

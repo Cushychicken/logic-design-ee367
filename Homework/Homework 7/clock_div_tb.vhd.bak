@@ -1,0 +1,64 @@
+-----------------------------------------------------------------
+-- File name   : clock_div_tb.vhd
+--
+-- Project     : Clock Divider
+--
+-- Description : VHDL testbench of clock divider
+--
+-- Author(s)   : Nash Reilly
+--               Montana State University
+--
+-- Date        : March 10, 2011
+--
+-- Note(s)     : This file is a test bench; has been edited to conform to user inputs
+--
+-----------------------------------------------------------------
+library IEEE;                    
+use IEEE.STD_LOGIC_1164.ALL;  
+
+entity clock_div_tb is
+end entity clock_div_tb;
+
+architecture clock_div_tb_arch of clock_div_tb is
+    
+  component clock_div
+  port(clk_in   :in std_logic;
+       clk_sel  :in std_logic_vector(1 downto 0);
+       reset    :in std_logic;
+  
+       clk_out  :out std_logic);
+  end component;
+
+  signal    Clock                  : STD_LOGIC;                        -- setup internal "input" signals 
+  signal    Clock_Out              : STD_LOGIC;                        -- setup internal "output" signals   
+  signal    Clock_Sel              : STD_LOGIC_VECTOR(1 downto 0);     -- setup internal "select" signals   
+  signal    Reset                  : STD_LOGIC;                        -- setup internal "reset" signals 
+  
+  begin
+      U1 :   clock_div
+         port map (clk_in => Clock,
+                   clk_sel => Clock_Sel,
+                   reset => Reset,
+                   clk_out => Clock_Out);
+
+      stimulus : process
+                  begin
+                     In3 <= '0'; In2 <= '0';   In1 <= '0';
+                     wait for 10 ns;
+                     In3 <= '0'; In2 <= '0';   In1 <= '1';
+                     wait for 10 ns;
+                     In3 <= '0'; In2 <= '1';   In1 <= '0';
+                     wait for 10 ns;
+                     In3 <= '0'; In2 <= '1';   In1 <= '1';
+                     wait for 10 ns;
+                     In3 <= '1'; In2 <= '0';   In1 <= '0';
+                     wait for 10 ns;
+                     In3 <= '1'; In2 <= '0';   In1 <= '1';
+                     wait for 10 ns;
+                     In3 <= '1'; In2 <= '1';   In1 <= '0';
+                     wait for 10 ns;
+                     In3 <= '1'; In2 <= '1';   In1 <= '1';
+                     wait for 10 ns;
+      end process stimulus;
+      
+end architecture test_decoder_3to8_arch;

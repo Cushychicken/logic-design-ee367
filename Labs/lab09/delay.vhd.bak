@@ -1,0 +1,54 @@
+-----------------------------------------------------------------------------------
+-- File name   : delay.vhd
+--
+-- Project     : Delay Circuit for Reaction Timer
+--
+-- Description : VHDL model of a combinational circuit delay
+--
+-- Author(s)   : Nash Reilly
+--               Montana State University
+--
+-- Date        : March 23, 2011
+--
+-- Note(s)     : 
+--
+------------------------------------------------------------------------------------
+LIBRARY ieee ;
+USE IEEE.STD_LOGIC_1164.ALL ;
+use IEEE.STD_LOGIC_ARITH.ALL;    --  
+use IEEE.STD_LOGIC_UNSIGNED.ALL; --
+
+entity delay is
+	port(SW     : in std_logic_vector(7 downto 0);
+		  Reset	: in std_logic;
+		  
+		  EN_out	: out std_logic)
+		  
+architecture delay_arch of delay is
+
+	DELAY: process(Reset)
+		begin
+			if (Reset = '0') then
+				EN_out <= '0';
+			elsif (SW = "00000000") then
+				wait 0 ms;
+				EN_out <= 1
+			elsif (SW = "00000001") then
+				wait 1000 ms;
+			elsif (SW = "00000010") then
+				wait 2000 ms;
+			elsif (SW = "00000011") then
+				wait 3000 ms;
+			elsif (SW = "00000100") then
+				wait 4000 ms;
+			elsif (SW = "00000101") then
+				wait 5000 ms;
+			elsif (SW = "00000110") then
+				wait 6000 ms;
+			elsif (SW = "00000111") then
+				wait 7000 ms;
+			elsif (SW = "00001000") then
+				wait 8000 ms;
+			elsif (SW = "00001001") then
+				wait 9000 ms;
+				

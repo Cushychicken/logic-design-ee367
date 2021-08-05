@@ -1,0 +1,23 @@
+------------------------------------------------------------------------------------------------------------
+-- File name   : x_register.vhd
+--
+-- Project     : EELE367 - Logic Design
+--               
+-- Description : VHDL model of a 16 x 8-bit ROM memory system that has been initialized
+--
+-- Author(s)   : Nash Reilly
+--
+-- Date        : April 11, 2011
+--
+-- Note(s)     : Data load register
+-- 
+--              Address      Description
+--              ----------------------------------
+--              $0           
+--               :           Read Only Memory 
+--              $F            (16x8-bit)              
+--
+------------------------------------------------------------------------------------------------------------
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;

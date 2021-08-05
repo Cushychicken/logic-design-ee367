@@ -1,0 +1,73 @@
+{Z:/EE367/Homework/Homework 10/memory.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 10/memory.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity memory
+-- Compiling architecture rtl of memory
+
+} {} {}} {Z:/EE367/Homework/Homework 10/microcomputer.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 10/microcomputer.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity microcomputer
+-- Compiling architecture rtl of microcomputer
+
+} {} {}} {Z:/EE367/Homework/Homework 10/ram_64x8_sync.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 10/ram_64x8_sync.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity ram_64x8_sync
+-- Compiling architecture rtl of ram_64x8_sync
+
+} {} {}} {Z:/EE367/Homework/Homework 10/processing_unit.vhd} {0 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 10/processing_unit.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity processing_unit
+** Error: Z:/EE367/Homework/Homework 10/processing_unit.vhd(23): near "port": expecting "IDENTIFIER"
+
+} {8.0 9.0} {}} {Z:/EE367/Homework/Homework 10/control_unit.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 10/control_unit.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity control_unit
+-- Compiling architecture rtl of control_unit
+
+} {} {}} {Z:/EE367/Homework/Homework 10/test_microcomputer.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 10/test_microcomputer.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity test_microcomputer
+-- Compiling architecture test_microcomputer_arch of test_microcomputer
+
+} {} {}} {Z:/EE367/Homework/Homework 10/cpu.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 10/cpu.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity cpu
+-- Compiling architecture rtl of cpu
+
+} {} {}} {Z:/EE367/Homework/Homework 10/rom_128x8_sync.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 10/rom_128x8_sync.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity rom_128x8_sync
+-- Compiling architecture rtl of rom_128x8_sync
+
+} {} {}}

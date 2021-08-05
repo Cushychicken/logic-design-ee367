@@ -1,0 +1,64 @@
+{Z:/EE367/Homework/Homework 3/or2.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 3/or2.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity or2
+-- Compiling architecture or2_arch of or2
+
+} {} {}} {Z:/EE367/Homework/Homework 3/xor2.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 3/xor2.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity xor2
+-- Compiling architecture xor2_arch of xor2
+
+} {} {}} {Z:/EE367/Homework/Homework 3/Test Benches/exercise216_parta_TB.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 3/Test Benches/exercise216_parta_TB.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity exercise216_parta_tb
+-- Compiling architecture exercise216_parta_tb_arch of exercise216_parta_tb
+
+} {} {}} {Z:/EE367/Homework/Homework 3/exercise216_parta.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 3/exercise216_parta.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity exercise216_parta
+-- Compiling architecture exercise216_parta_arch of exercise216_parta
+
+} {} {}} {Z:/EE367/Homework/Homework 3/exercise216_partb.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 3/exercise216_partb.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity exercise216_partb
+-- Compiling architecture exercise216_partb_arch of exercise216_partb
+
+} {} {}} {Z:/EE367/Homework/Homework 3/and2.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 3/and2.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity and2
+-- Compiling architecture and2_arch of and2
+
+} {} {}} {Z:/EE367/Homework/Homework 3/Test Benches/exercise216_partb_TB.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 3/Test Benches/exercise216_partb_TB.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity exercise216_partb_tb
+-- Compiling architecture exercise216_partb_tb_arch of exercise216_partb_tb
+
+} {} {}} {Z:/EE367/Homework/Homework 3/Test Benches/exercise216_partc_TB.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 3/Test Benches/exercise216_partc_TB.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity exercise216_partc_tb
+-- Compiling architecture exercise216_partc_tb_arch of exercise216_partc_tb
+
+} {} {}} {Z:/EE367/Homework/Homework 3/exercise216_partc.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 3/exercise216_partc.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity exercise216_partc
+-- Compiling architecture exercise216_partc_arch of exercise216_partc
+
+} {} {}}

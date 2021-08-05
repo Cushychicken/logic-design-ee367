@@ -1,0 +1,13 @@
+LIBRARY ieee;
+USE ieee.std logic 1164.all;
+
+
+- - Simple module that connects the SW switches to the LEDR lights
+ENTITY part1 IS
+PORT ( SW : IN STD LOGIC VECTOR(17 DOWNTO 0);
+LEDR : OUT STD LOGIC VECTOR(17 DOWNTO 0)); - - red LEDs
+END part1;
+ARCHITECTURE Behavior OF part1 IS
+BEGIN
+LEDR <= SW;
+END Behavior

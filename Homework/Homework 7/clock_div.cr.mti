@@ -1,0 +1,24 @@
+{Z:/EE367/Homework/Homework 7/test_clock_div.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 7/test_clock_div.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity test_clock_div
+-- Compiling architecture test_clock_div_arch of test_clock_div
+
+} {} {}} Z:/EE367/Labs/lab07/dflipflop.vhd {1 {vcom -work work -2002 -explicit Z:/EE367/Labs/lab07/dflipflop.vhd
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity dflipflop
+-- Compiling architecture dff_arch of dflipflop
+
+} {} {}} {Z:/EE367/Homework/Homework 7/mux_4to1.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 7/mux_4to1.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity mux_4to1
+-- Compiling architecture mux_4to1_arch of mux_4to1
+
+} {} {}}

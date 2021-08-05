@@ -1,0 +1,15 @@
+{Z:/EE367/Homework/Homework 4/bcd_to_7seg_decimal.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 4/bcd_to_7seg_decimal.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity bcd_to_7seg_decimal
+-- Compiling architecture bcd_to_7seg_decimal_arch of bcd_to_7seg_decimal
+
+} {} {}} {Z:/EE367/Homework/Homework 4/bcd_to_7seg_decimal_TB.vhd} {1 {vcom -work work -2002 -explicit {Z:/EE367/Homework/Homework 4/bcd_to_7seg_decimal_TB.vhd}
+Model Technology ModelSim ALTERA vcom 6.5e Compiler 2010.02 Feb 27 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity bcd_to_7seg_decimal_tb
+-- Compiling architecture bcd_to_7seg_decimal_tb_arch of bcd_to_7seg_decimal_tb
+
+} {} {}}

@@ -1,0 +1,109 @@
+m255
+K3
+13
+cModel Technology
+dZ:\EE367\Homework\Homework 4
+Eand3
+Z0 w1297727754
+Z1 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z2 dZ:\EE367\Homework\Homework 5
+Z3 8Z:/EE367/Homework/Homework 5/and3.vhd
+Z4 FZ:/EE367/Homework/Homework 5/and3.vhd
+l0
+L18
+VODR>`c0`KiA8FFNj2fNCW1
+Z5 OV;C;6.5e;42
+32
+Z6 o-work work -2002 -explicit -O0
+Z7 tExplicit 1
+!s100 =UbAjRd[AG19jRI:;5nBb2
+Aand3_arch
+R1
+DEx4 work 4 and3 0 22 ODR>`c0`KiA8FFNj2fNCW1
+l24
+L23
+VM[XHPlZKW<:iCCI^]DCHA3
+R5
+32
+Z8 Mx1 4 ieee 14 std_logic_1164
+R6
+R7
+!s100 :7G3K;G7^C_J67CP39JRb2
+Edecoder_3to8
+Z9 w1297727313
+R1
+R2
+Z10 8Z:/EE367/Homework/Homework 5/Case Instantiation/decoder_3to8.vhd
+Z11 FZ:/EE367/Homework/Homework 5/Case Instantiation/decoder_3to8.vhd
+l0
+L19
+VDHD[zAVc41SNU>=_Bk;d?3
+!s100 QdVSFC8dWUh6<JDBCkmFT1
+R5
+32
+R6
+R7
+Adecoder_3to8_arch
+R1
+Z12 DEx4 work 12 decoder_3to8 0 22 DHD[zAVc41SNU>=_Bk;d?3
+l26
+L25
+VaE?M;<9SH^PROh=:Wcg5o2
+!s100 kX=ag4VfMb]@NKa81_[I>2
+R5
+32
+R8
+R6
+R7
+Einv1
+Z13 w1295915430
+R1
+R2
+Z14 8Z:/EE367/Homework/Homework 5/inv1.vhd
+Z15 FZ:/EE367/Homework/Homework 5/inv1.vhd
+l0
+L21
+V=E8b:`mAZ0kke0kjAPm6F0
+R5
+32
+R6
+R7
+!s100 iHBSdlOfFEIH725CYeIU72
+Ainv1_arch
+R1
+DEx4 work 4 inv1 0 22 =E8b:`mAZ0kke0kjAPm6F0
+l30
+L29
+VS9LN3iJed3DdWgQRmKbHf2
+R5
+32
+R8
+R6
+R7
+!s100 n]@ga[C2@DZgV5eJM3B5Y3
+Etest_decoder_3to8
+Z16 w1298059372
+R1
+R2
+Z17 8Z:/EE367/Homework/Homework 5/test_decoder_3to8.vhd
+Z18 FZ:/EE367/Homework/Homework 5/test_decoder_3to8.vhd
+l0
+L20
+VXMOZ?3nTbTf=zW3;N]10L0
+R5
+32
+R6
+R7
+!s100 fO3IkE]QA]8PiK=aPL:Y<3
+Atest_decoder_3to8_arch
+R1
+DEx4 work 17 test_decoder_3to8 0 22 XMOZ?3nTbTf=zW3;N]10L0
+l34
+L23
+VVI^@:fa^oEg^>W8o4=8[R0
+!s100 N6b6nbJKboMn?C@1J:^:91
+R5
+32
+R8
+R6
+R7

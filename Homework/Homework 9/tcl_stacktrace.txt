@@ -1,0 +1,25 @@
+Tue Apr 05 3:22:44 PM Mountain Daylight Time 2011
+Trace back: search: no current module
+    while executing
+"$nlviewWidget search * $name"
+    (procedure "SelectNets" line 37)
+    invoked from within
+"SelectNets [dataset current]"
+    (procedure "SchematicView::Activate" line 8)
+    invoked from within
+"SchematicView::Activate .main_pane.schematic"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-activatecommand) $frame_name"
+    (object "::.main_pane.schematic" method "::mtiwidgets::WindowObj::Activate" body line 16)
+    invoked from within
+"$window Activate """
+    (object "::.vcop" method "::vsimwidgets::Vcop::ActualActivate" body line 34)
+    invoked from within
+"::.vcop ActualActivate"
+    (in namespace inscope "::vsimwidgets::Vcop" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Vcop {::.vcop ActualActivate}"
+    ("after" script)
+  2: ::tkerror {search: no current module}
+  1: ::bgerror {search: no current module}
